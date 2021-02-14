@@ -159,3 +159,11 @@ const toggleSpinner = (show) => {
   }
     
 }
+
+
+const darkModeToggler = document.getElementById("dark-mode-toggler");
+const mainArea = document.getElementById("main-area");
+darkModeToggler.addEventListener("click", function(){
+    console.log("object");
+    mainArea.classList.toggle("main-container");
+})
