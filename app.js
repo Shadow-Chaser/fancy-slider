@@ -136,6 +136,7 @@ searchBtn.addEventListener('click', function () {
   sliders.length = 0;
 })
 
+// Searching by pressing Enter Button
 document.getElementById("search")
   .addEventListener("keypress", function(event){
       if(event.key == 'Enter'){
@@ -148,7 +149,7 @@ sliderBtn.addEventListener('click', function () {
 })
 
 
-// New Feature : Loading Spinner
+// New Feature 1 : Loading Spinner
 const toggleSpinner = (show) => {
   const spinner = document.getElementById("loading-spinner");
   if(show){
@@ -160,7 +161,7 @@ const toggleSpinner = (show) => {
     
 }
 
-// New Feature : Dark Mode Toggler
+// New Feature 2: Dark Mode Toggler
 const darkModeToggler = document.getElementById("dark-mode-toggler");
 const mainArea = document.getElementById("main-area");
 darkModeToggler.addEventListener("click", function(){

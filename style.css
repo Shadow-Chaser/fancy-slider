@@ -69,5 +69,5 @@ img {
 .main-container{
   background-color: black;
   color: white;
-  transition: all 1s ease;
+  transition: all 0.8s ease;
 }
