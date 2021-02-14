@@ -79,7 +79,7 @@ const createSlider = () => {
   let duration = document.getElementById('duration').value || 1000;
 
   if(duration < 0){
-    alert("Set a positive duration")
+    alert("Set a positive duration. Default duration is 1 second!")
     duration = 1000;
   }
   sliders.forEach(slide => {
@@ -160,7 +160,7 @@ const toggleSpinner = (show) => {
     
 }
 
-
+// New Feature : Dark Mode Toggler
 const darkModeToggler = document.getElementById("dark-mode-toggler");
 const mainArea = document.getElementById("main-area");
 darkModeToggler.addEventListener("click", function(){
